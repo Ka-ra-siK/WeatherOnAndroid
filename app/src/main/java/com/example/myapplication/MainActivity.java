@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     // Если ввели, то формируем ссылку для получения погоды
                     String city = user_field.getText().toString();
-                    String key = "42124be3006a5bc36eb3ae89053a8893";
+                    String key = "Your Key";
                     String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + key + "&units=metric&lang=ru";
 
                     // Запускаем класс для получения погоды
